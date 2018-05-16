@@ -5,6 +5,9 @@
   <div class="col-md-8">
     <h2><%= @book.title %></h2>
     <h3><%= @book.author %></h3>
+    <h4>Average Rating</h4>
+    <div class="average-review-rating" data-score=<%= @average_review %>></div>
+    <span>Based on <%= @book.reviews.count %> reviews!</span>
     <p><%= @book.description %></p>
   </div>
 </div>
@@ -16,6 +19,8 @@
   </div>
 </div>
 
+<%= link_to "Back", books_path %>
+
 <% if user_signed_in? %>
   <% if @book.user_id == current_user.id %>
     <%= link_to "Edit", edit_book_path(@book) %> |
@@ -23,4 +28,22 @@
   <% end %>
 <% end %>
 
-<%= link_to "Back", books_path %>
+<script>
+  $('.review-rating').raty({
+    readOnly: true,
+    score: function() {
+      return $(this).attr('date-score');
+    },
+    path: '/assets/'
+  });
+</script>
+
+<script>
+  $('.average-review-rating').raty({
+    readOnly: true,
+    score: function() {
+      return $(this).attr('date-score');
+    },
+    path: '/assets/'
+  });
+</script>
