@@ -1,3 +1,11 @@
 <h1>Edit Book</h1>
 
-<%= render 'form' %> 
+<%= simple_form_for @book, html: { multipart: :true } do |f| %>
+  <%= f.select :category_id, @categories %>
+  <%= f.input :title, label: "Book Title" %>
+  <%= f.input :author %>
+  <%= f.input :description %>
+  <%= f.submit %>
+<% end %>
+
+<%= link_to "Back", books_path %>
