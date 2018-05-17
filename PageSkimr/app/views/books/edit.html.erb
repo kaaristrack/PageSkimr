@@ -1,12 +1,15 @@
-<h1>Edit Book</h1>
-
-<%= simple_form_for @book, html: { multipart: :true } do |f| %>
-  <%= f.select :category_id, @categories %>
-  <%= f.file_field :book_img %>
-  <%= f.input :title, label: "Book Title" %>
-  <%= f.input :author %>
-  <%= f.input :description %>
-  <%= f.submit %>
-<% end %>
-
-<%= link_to "Back", books_path %>
+<div class="col-md-6 col-md-offset-3">
+  <div class="edit-book-form">
+    <h1>Edit Book</h1>
+      <%= simple_form_for @book, html: { multipart: :true } do |f| %>
+        <%= f.select :category_id, @categories %>
+        <%= f.file_field :book_img %>
+        <%= f.input :title, label: "Book Title" %>
+        <%= f.input :author %>
+        <%= f.input :description, input_html: { rows: 10 } %>
+        <%= f.button :submit, class: "btn-custom2" %>
+      <% end %>
+      <br />
+      <%= link_to "Cancel", book_path(@book), class: "btn-xs btn-custom" %>
+  </div>
+</div>

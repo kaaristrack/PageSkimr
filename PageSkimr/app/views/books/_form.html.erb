@@ -3,6 +3,6 @@
   <%= f.file_field :book_img %>
   <%= f.input :title, label: "Book Title" %>
   <%= f.input :author %>
-  <%= f.input :description %>
-  <%= f.submit %>
+  <%= f.input :description, input_html: { rows: 10 } %>
+  <%= f.button :submit, class: "btn-custom2" %>
 <% end %>
