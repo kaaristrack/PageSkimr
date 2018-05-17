@@ -1,6 +1,6 @@
 # PageSkimr
 
-<img align="right" width="350" height="285" src="https://image.ibb.co/gz0q5d/Screen_Shot_2018_05_17_at_12_33_32.png">
+<img align="right" width="350" src="https://image.ibb.co/njU05d/screenshot.png">
 
 ### Synopsis
 
