@@ -1,8 +1,8 @@
 # PageSkimr
 
-<img align="right" width="250" src="https://image.ibb.co/njU05d/screenshot.png">
-
 ### Synopsis
+
+<img align="right" width="300" src="https://image.ibb.co/njU05d/screenshot.png">
 
 Welcome to my repo for PageSkimr - a web application that allows users to rate and review their favourite books.
 
