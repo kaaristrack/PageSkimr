@@ -2,8 +2,6 @@
 
 ### Synopsis
 
-<img align="right" width="300" src="https://image.ibb.co/njU05d/screenshot.png">
-
 Welcome to my repo for PageSkimr - a web application that allows users to rate and review their favourite books.
 
 The original brief for this challenge can be found [HERE!](https://www.youtube.com/watch?v=AMai9EZesXY)
@@ -35,5 +33,7 @@ $ rails s
 Navigate to "localhost:3000" in your chosen browser, and enjoy!
 
 ### Demo Video
+
+<a href="https://www.youtube.com/watch?v=QA5JtPSihkc&feature=youtu.be"><img align="right" width="300" src="https://image.ibb.co/njU05d/screenshot.png">
 
 [CLICK HERE!](https://www.youtube.com/watch?v=QA5JtPSihkc&feature=youtu.be)
