@@ -34,6 +34,4 @@ Navigate to "localhost:3000" in your chosen browser, and enjoy!
 
 ### Demo Video
 
-<a href="https://www.youtube.com/watch?v=QA5JtPSihkc&feature=youtu.be"><img align="right" width="300" src="https://image.ibb.co/njU05d/screenshot.png">
-
 [CLICK HERE!](https://www.youtube.com/watch?v=QA5JtPSihkc&feature=youtu.be)
